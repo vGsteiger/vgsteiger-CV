@@ -20,7 +20,7 @@
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
-
+\usepackage{orcidlink}
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -132,19 +132,15 @@
 %---------- HEADING ----------
 
 \begin{center}
-    \textbf{\Huge \scshape Aras Güngöre} \\ \vspace{3pt}
+    \textbf{\Huge \scshape Viktor Gsteiger} \\ \vspace{3pt}
     \small
-    \faMobile \hspace{.5pt} \href{tel:905314204536}{+90 531 420 4536}
+    \faMobile \hspace{.5pt} \href{tel:905314204536}{+41 76 328 78 20}
     $|$
-    \faAt \hspace{.5pt} \href{mailto:arasgungore09@gmail.com}{arasgungore09@gmail.com}
+    \faAt \hspace{.5pt} \href{mailto:vgsteiger@student.ethz.ch}{vgsteiger@student.ethz.ch}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arasgungore}{LinkedIn}
+    \orcidlink{https://orcid.org/0000-0002-6750-5500} \hspace{.5pt} \href{https://orcid.org/0000-0002-6750-5500}{OrCiD}
     $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/arasgungore}{GitHub}
-    $|$
-    \faGlobe \hspace{.5pt} \href{https://arasgungore.github.io}{Portfolio}
-    $|$
-    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Istanbul, Turkey}
+    \faGithub \hspace{.5pt} \href{https://github.com/vGsteiger}{GitHub}
 \end{center}
 
 
@@ -156,20 +152,20 @@
   \resumeSubHeadingListStart
     
     \resumeEducationHeading
-      {Boğaziçi University
+      {ETH Zürich
       % \normalfont{(Admission rate: 0.09\%)}
-      }{Istanbul, Turkey}
-      {B.Sc. in Electrical and Electronics Engineering;   \textbf{GPA: 3.73/4.00}}{Sep 2018 \textbf{--} Jun 2023 (Expected)}
-      {Minor Degree in Computer Engineering;   \textbf{GPA: 3.89/4.00}}{Oct 2020 \textbf{--} Jun 2023 (Expected)}
+      }{Zürich, Switzerland}
+      {M.Sc. in Computer Science}{Sep 2021 \textbf{--} April 2024 (Expected)}
+      {Major Degree in Data Management Systems}{}
         % \resumeItemListStart
             % \resumeItem{\textbf{Relevant coursework:} Calculus I-II, Matrix Theory, Differential Equations, Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering}
         % \resumeItemListEnd
     
     \resumeSubheading
-      {Kocaeli Science High School
+      {University of Basel
       % \normalfont{(Admission rate: 0.85\%)}
-      }{Kocaeli, Turkey}
-      {High School Diploma;   \textbf{GPA: 97.03/100}}{Sep 2014 \textbf{--} Jun 2018}
+      }{Basel, Switzerland}
+      {B.Sc. in Computer Science}{Sep 2018 \textbf{--} July 2021}
     
   \resumeSubHeadingListEnd
 
@@ -181,23 +177,23 @@
   \vspace{3pt}
   \resumeSubHeadingListStart
   
+  \resumeSubheading
+  {ETH Zürich}{Zürich, Switzerland}
+  {Distributed Systems Laboratory}{Sep 2022 \textbf{--} Present}
+  \resumeItemListStart
+  \resumeItem{Currently working with Prof. Dr. Ana Klimovic on \texorpdfstring{\textsc{Modyn}}{Modyn} (paper \textit{A Platform for Model Training on Dynamic Datasets} submitted to \textit{EuroMLSys23}), a work-in-progress open-source platform that enables ML researchers and practitioners to explore a wide variety of training and data selection policies.}
+  \resumeItem{Worked on systems architecture with regard to data storage and retrieval in the context of the research platform and supported other researchers in architectural decisions with regard to data storage and cloud utilisation.}
+  \resumeItem{Implemented a data storage abstraction layer that enabled a multitude of storage formats and platforms as well as research into data retrieval and storage costs with regards to dynamic datasets.}
+  \resumeItemListEnd
+
     \resumeSubheading
-      {Max Planck Institute for Intelligent Systems}{Stuttgart, Baden\textbf{-}Württemberg, Germany}
-      {Undergraduate Research Assistant}{Jun 2022 \textbf{--} Aug 2022}
+      {Databases and Information Systems (DBSI) group}{Basel, Switzerland}
+      {Undergraduate Research Assistant}{Jan 2021 \textbf{--} Sep 2021}
         \resumeItemListStart
-            \resumeItem{Worked in the Physical Intelligence Department with Sinan Özgün Demir and Alp Can Karacakol on a project about 3D printing and heat-assisted magnetic programming of soft machines.}
-            \resumeItem{Updated a ROS package for converting 3D motion controller events to ROS messages so that it synchronously operates at any given loop rate.}
-            \resumeItem{Implemented an Arduino Mega driver for controlling a fluid dispenser, a laser, thermocouples, and a coil set. Updated ROS nodes for parsing G-codes and controlling stage movement and built the ROS-Arduino communication network to simulate a 3D printing and magnetic programming process.}
-        \resumeItemListEnd
-    
-    \resumeSubheading
-      {Nanonetworking Research Group, Boğaziçi University}{Istanbul, Turkey}
-      {Undergraduate Research Assistant}{Oct 2021 \textbf{--} Present}
-        \resumeItemListStart
-            \resumeItem{Currently working with Assoc. Prof. Ali Emre Pusane on the project “Design and Implementation of Molecular Communication Systems Using Index Modulation” under the TÜBİTAK 2247-C Intern Researcher Scholarship Program (STAR).}
-            \resumeItem{Simulated the Brownian motion of molecules in a SISO MCvD system and predicted simulation parameters such as receiver radius, diffusion coefficient, and transmitter-receiver distance using CNNs with Python.}
-            \resumeItem{Plotted the arrival of molecules per symbol duration in a SISO MCvD system using Binomial, Poisson, and Gaussian model approximations with MATLAB.}
-            \resumeItem{Ran Monte Carlo simulations of the Gaussian model to encode/decode randomized binary sequences in a SISO MCvD system using BCSK modulation technique and calculated the bit error rate (BER) on Z-channel.}
+            \resumeItem{Working with Prof. Dr. Heiko Schuldt on Multi-Modal Interactive Video Retrieval with Temporal Queries in the research system vitrivr.}
+            \resumeItem{Contributing to vitrivr participating at the Video Browser Showdown (VBS) in 2021 by actively developing temporal querying algorithms for multimedia item retrieval. The results of this work were presented at the 10th Video Browser Showdown (VBS) in 2021.}
+            \resumeItem{Developed a temporal query parser and optimiser for the vitrivr system that enables users to query multimedia items by time intervals as part of my Bachelor's Thesis.}
+            \resumeItem{Contributed to papers: \textit{Interactive video retrieval evaluation at a distance: comparing sixteen interactive video search systems in a remote setting at the 10th Video Browser Showdown}, \textit{Multi-modal Interactive Video Retrieval with Temporal Queries}}
         \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -211,12 +207,11 @@
   \resumeSubHeadingListStart
     
     \resumeSubheading
-      {SESTEK Speech Enabled Software Technologies}{Istanbul, Turkey}
-      {Natural Language Processing R\&D Intern}{Jan 2022 \textbf{--} Feb 2022}
+      {Business Systems Integrations AG}{Zürich, Switzerland}
+      {Software Engineering and DevOps Working Student}{Jan 2022 \textbf{--} Present}
         \resumeItemListStart
-            \resumeItem{Implemented common NLP tasks using transformers such as named-entity recognition (NER), part-of-speech (POS) tagging, sentiment analysis, text classification, and extractive/generative question answering.}
-            \resumeItem{Built a generative question answering system via Dense Passage Retrieval (DPR) and Retrieval-Augmented Generation (RAG) using the Haystack framework with Python.}
-            \resumeItem{Worked on a custom Turkish open-domain question answering system by fine-tuning a BERT base model transformer. Evaluated the exact match and F1 scores using different Turkish data sets and compared the evaluation results.}
+            \resumeItem{\textit{DevOps Engineer} (Sep 2022 \textbf{--} Present): Responsible for designing, implementing, and maintaining complex infrastructure systems. This includes using technologies such as Kubernetes, Helm charts, Artifactory, GitLab, Ceph storage, S3, OpenShift, Docker, PostgreSQL, and Oracle databases.}
+            \resumeItem{\textit{Software Engineer} (Jan 2022 \textbf{--} Sep 2022): Responsible for developing in a code base of approximately 2 million lines of code using Java and the Scout framework with a custom business solution stack on top. Created and integrated REST APIs, ETL pipelines, and other solutions as part of the stack for a national car leasing provider.}
         \resumeItemListEnd
     
     % \resumeSubheading
@@ -229,86 +224,14 @@
 
     % \vspace{15pt}
     \resumeSubheading
-      {Meteksan Defense Industry Inc.}{Ankara, Turkey}
-      {Analog Design Engineering Intern}{Jul 2021 \textbf{--} Aug 2021}
+      {Bank for International Settlements}{Basel, Switzerland}
+      {Full-Stack Software Engineering Contractor}{Feb 2020 \textbf{--} Sep 2021}
         \resumeItemListStart
-            \resumeItem{Designed numerous analog circuits such as voltage-mode controlled buck converter, phase-shifted full-bridge isolated DC-DC converter, and EMI filters with LTspice. Integrated these circuits and implemented a 320 W power distribution unit to be used in a radar system's power circuit board.}
-            \resumeItem{Researched real-world compatible electronic components to be used in such circuits including GaNFETs, high-side gate drivers, and Schottky diodes.}
-            \resumeItem{Assembled PCBs of both common and differential mode filters and used VNA Bode 100 to measure the cut-off frequencies.}
+            \resumeItem{Partnership of the BIS and the University of Basel under the  direct supervision of Prof. Dr. Heiko Schuldt.}
+            \resumeItem{Responsible for contributing to a natural language processing project stack in a Linux/Python/PostgreSQL/Azure DevOps/Angular environment. This included the development and maintenance of information retrieval software in an international team setting.}
         \resumeItemListEnd
     
   \resumeSubHeadingListEnd
-
-
-
-%----------- AWARDS & ACHIEVEMENTS -----------
-
-\section{Awards \& Achievements}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{National University Admission Exam (YKS):}{ Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500.} \\ \vspace{3pt}
-        
-        \textbf{KYK Outstanding Success Scholarship:}{ Awarded to undergraduate students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK).} \\ \vspace{3pt}
-        
-        \textbf{Boğaziçi University Success Scholarship:}{ Awarded to undergraduate students who have been ranked in the top 100 on National University Admission Exam by Boğaziçi University.} \\ \vspace{3pt}
-        
-        \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to undergraduate students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK).} \\ \vspace{3pt}
-        
-        \textbf{Duolingo English Test (DET):}{ Overall Score: 135/160} \\ \vspace{3pt}
-        
-        % \textbf{Boğaziçi University English Proficiency Test (BUEPT):}{ Achieved the highest grade A on the BUEPT grading scheme with a total score in the range of 85-100.} \\ \vspace{3pt}
-        
-        \textbf{Kocaeli Science High School Salutatorian Award:}{ Graduated as the second-highest ranked student in my class.}
-    }}
-  \resumeSubHeadingListEnd
-
-
-
-%----------- PROJECTS -----------
-
-\section{Projects}
-    \vspace{3pt}
-    \resumeSubHeadingListStart
-      
-      \resumeProjectHeading
-        {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch.}
-            \resumeItem{Added recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle in PPM format.}
-          \resumeItemListEnd
-      
-      \resumeProjectHeading
-        {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move.}
-            \resumeItem{Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
-          \resumeItemListEnd
-      
-      \resumeProjectHeading
-        {\textbf{Rocket Flight Simulator} $|$ \emph{\href{https://github.com/arasgungore/rocket-flight-simulator}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{A Simulink project which can accurately simulate the motion of a flying rocket in one-dimensional space.}
-            \resumeItem{The project implements the forces acting on a rocket which are drag, weight, and thrust as subsystems that take time-variant parameters into consideration such as distance from the center of Earth, mass and velocity of the rocket, and air density at different layers of Earth's atmosphere.}
-          \resumeItemListEnd
-      
-      \resumeProjectHeading
-        {\textbf{Netlist Solver} $|$ \emph{\href{https://github.com/arasgungore/netlist-solver}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{A MATLAB project that uses modified nodal analysis (MNA) algorithm to calculate the node voltages of any analog circuit without dependent sources given in netlist format.}
-            \resumeItem{Added a module that sweeps the resistance of a load resistor, plots power dissipation as a function of load resistance, and finds the resistance value corresponding to maximum power.}
-          \resumeItemListEnd
-      
-      \resumeProjectHeading
-        {\textbf{CMPE 250 Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course in the Fall 2021-22 semester.}
-            \resumeItem{These projects apply DS\&A concepts such as discrete-event simulation (DES) using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
-          \resumeItemListEnd
-      
-    \resumeSubHeadingListEnd
-
-
 
 %----------- SKILLS -----------
 
@@ -316,16 +239,11 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Programming:}{ C, C++, Java, Python, MATLAB, R, MySQL, VHDL} \\ \vspace{3pt}
+        \textbf{Programming:}{ C, C++, Java, Kotlin, Python, MATLAB, R, SQL, Go} \\ \vspace{3pt}
         
-        \textbf{Technologies:}{ Git, Arduino, ROS, Simulink, LTspice, Xilinx ISE} \\ \vspace{3pt}
+        \textbf{Technologies:}{ Git, TensorFlow, Apache Kafka, Docker, Kubernetes, PostgreSQL, HDFS, Spark, Unix} \\ \vspace{3pt}
         
-        \textbf{Languages:}{ Turkish (Native), English (Professional), German (Elementary)}
-        
-        % \textbf{Frameworks}{: X, X, X} \\
-        % \textbf{Developer Tools}{: X, X, X} \\
-        % \textbf{Libraries}{: X, X, X} \\
-        % \textbf{Applications}{: X, X, X}
+        \textbf{Languages:}{ German (Native), English (Professional), French (Elementary)}
     }}
   \resumeSubHeadingListEnd
 
@@ -333,15 +251,15 @@
 
 %----------- RELEVANT COURSEWORK -----------
 
-\section{Relevant Coursework}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{Major coursework:}{ Calculus I-II, Matrix Theory, Differential Equations, Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering} \\ \vspace{3pt}
+% \section{Relevant Coursework}
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{Major coursework:}{ Calculus I-II, Matrix Theory, Differential Equations, Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering} \\ \vspace{3pt}
         
-        \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms}
-    }}
-  \resumeSubHeadingListEnd
+%         \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms}
+%     }}
+%   \resumeSubHeadingListEnd
 
 
 
