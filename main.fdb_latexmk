@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1693037183 "/Users/viktorgsteiger/Documents/vgsteiger-CV/main.tex" "main.pdf" "main" 1693037183 0
-  "/Users/viktorgsteiger/Documents/vgsteiger-CV/main.tex" 1693037183 11862 ae3a8489afca56cf52e1289de351d98e ""
+["pdflatex"] 1693212765 "/Users/viktorgsteiger/Documents/vgsteiger-CV/main.tex" "main.pdf" "main" 1693212766 0
+  "/Users/viktorgsteiger/Documents/vgsteiger-CV/main.tex" 1693212765 11863 d2112e11dfc3f90e64d979024bc6e3f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -172,9 +172,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1673704738 4623355 58034c3eb7ddf7eacc726a83d01e26d2 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1673704813 7874848 614e4d3f6ded7a25e378b4ad81d2cf05 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1693037183 1078 70111c3d48d4ca5727b57d72105f7948 "pdflatex"
-  "main.out" 1693037183 461 8546ea50e68fa776311f2605d99d217a "pdflatex"
-  "main.tex" 1693037183 11862 ae3a8489afca56cf52e1289de351d98e ""
+  "main.aux" 1693212766 1078 70111c3d48d4ca5727b57d72105f7948 "pdflatex"
+  "main.out" 1693212766 461 8546ea50e68fa776311f2605d99d217a "pdflatex"
+  "main.tex" 1693212765 11863 d2112e11dfc3f90e64d979024bc6e3f4 ""
   (generated)
   "main.aux"
   "main.log"
